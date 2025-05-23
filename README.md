@@ -148,3 +148,4 @@ Lessons Learned:
 ✔ Use logging for better debugging.
 
 *OUTPUT*:
+![Image](https://github.com/user-attachments/assets/156a009a-3655-4be5-aa99-a83422e6c10c)
