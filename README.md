@@ -23,14 +23,16 @@ Customizable Dataset: Works with CSV files containing userId, productId, and pre
 Scalable: Can be extended to larger datasets or integrated with databases.
 
 -Tools & Technologies Used
-Tool	Purpose
+
 Java (JDK 8)	Core programming language
 Apache Mahout (0.9)	Machine learning library for recommendations
 Maven	Dependency management
 IntelliJ IDEA	IDE for development
 SLF4J	Logging framework
 Windows Terminal	Running Maven commands
+
 -Challenges Faced & Solutions
+
 1. Dependency Conflicts & Vulnerabilities
 Problem:
 
@@ -80,6 +82,7 @@ Solution:
 Added slf4j-simple dependency for logging.
 
 -New Concepts Learned
+
 ✅ Transitive Dependencies:
 
 Learned how Maven pulls indirect dependencies and how to exclude risky ones.
@@ -109,6 +112,7 @@ Dependency security (CVE scanning).
 Used commands like mvn clean install, mvn dependency:tree.
 
 -Final Execution Steps
+
 1. Setting Up
 CSV File (sample_data.csv):
 
@@ -135,6 +139,7 @@ Check if the CSV has enough user-item interactions.
 Verify userId and productId exist in the dataset.
 
 -Future Improvements
+
 🔹 Integrate with Databases (MySQL/MongoDB) instead of CSV.
 🔹 Deploy as a Web Service (Spring Boot + REST API).
 🔹 Upgrade to Mahout 0.14+ for better Hadoop compatibility.
